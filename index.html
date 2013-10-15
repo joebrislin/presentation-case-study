@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Case Study: Case Management Application for Counselors</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<img id="logo" src="images/logo_bri.png" />
+					<h2>Case Study</h2>
+					<h3>Case Management Application for Counselors</h3>
+				</section>
+
+				<section>
+					<h1>About Me</h2>
+					<ul>
+						<li>President at BlueRidge Interactive</li>
+						<li>Over 14 Years of Web Application Development Experience</li>
+						<li>Manager of Local Adobe User Group</li>
+						<li>Self-Proclaimed Sports Nut</li>
+					</ul>
+				</section>
+
+				<section>
+					<section>
+						<h1>Background</h2>
+						<p class="fragment">Custom Web Application developed for Agency that specializes in mental health or substance abuse disorders</p>
+					</section>
+					<section>
+						<h2>Where They Were</h2>
+						<ul>
+							<li class="fragment">Client was unhappy with flow of current platform</li>
+							<li class="fragment">They had to make concessions to make their process fit the software</li>
+							<li class="fragment">Overwhelming feeling that the system was bloated</li>
+							<li class="fragment">Felt they were paying for features that they didn't use</li>
+							<li class="fragment">Not much control over when bug fixes would be implemented</li>
+						</ul>
+					</section>
+					
+					<section>
+						<h2>Where They Wanted To Be</h2>
+						<ul>
+							<li class="fragment">Wanted to develop application to fit their process</li>
+							<li class="fragment">Needed Application to grow as the business grew</li>
+							<li class="fragment">Wanted to cut costs</li>
+							<li class="fragment">Control of which features would be implemented</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Architecture Project</h2>
+				</section>
+
+				<section>
+					<h2>Development</h2>
+				</section>
+
+				<section>
+					<h2>Site Launch</h2>
+				</section>
+
+				<section>
+					<h2>Pros</h2>
+					<ul>
+						<li class="fragment">Cost Savings of over at 25% in 1st Year</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Cons</h2>
+				</section>
+
+				<section>
+					<h1>Questions?</h1>
+				</section>
+
+				<section>
+					<h2>Contact Information</h2>
+					<p>
+						Joe Brislin</br>
+						President, BlueRidge Interactive<br/>
+						<img id="logo" class="small" src="images/logo_bri.png" /><br/>
+						Website: <a href="http://www.blueridgeinteractive.com">http://www.blueridgeinteractive.com</a><br/>
+						Email: <a href="mailto:jbrislin@blueridgeinteractive.com">jbrislin@blueridgeinteractiv.com</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
